@@ -6,7 +6,7 @@ import FailedTask from './FailedTask'
 
 const TaskList = ({ data }) => {
     return (
-        <div id='tasklist' className='h-[50%] overflow-x-auto flex items-center justify-start gap-5 flex-nowrap w-full py-1 mt-16'>
+        <div id='tasklist' className='h-[40%] overflow-x-auto flex items-center justify-start gap-10 flex-wrap w-full py-1 px-5 mt-16 pb-6'>
             {data.tasks.map((elem, idx) => {
                 if (elem.active) {
                     return <AcceptTask key={idx} data={elem} />

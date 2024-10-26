@@ -13,7 +13,7 @@ const Login = ({ handleLogin }) => {
 
     return (
         <div className='flex h-screen w-screen items-center justify-center'>
-            <div className='border-2 rounded-xl border-emerald-600 p-20'>
+            <div className='border-2 rounded-xl border-emerald-600 px-9 py-20 sm:p-20'>
                 {/* Add hint message here */}
                 <div className='mb-4 text-center'>
                     <p className='text-gray-600'>
@@ -22,15 +22,15 @@ const Login = ({ handleLogin }) => {
                     <p className='text-gray-500'>
                         Employees:
                         <br />
-                        1. email: employee1@example.com, password: 123
+                        1. email: emp1@example.com, pass: 123
                         <br />
-                        2. email: employee2@example.com, password: 123
+                        2. email: emp2@example.com, pass: 123
                         <br />
-                        3. email: employee3@example.com, password: 123
+                        3. email: emp3@example.com, pass: 123
                         <br />
-                        4. email: employee4@example.com, password: 123
+                        4. email: emp4@example.com, pass: 123
                         <br />
-                        5. email: employee5@example.com, password: 123
+                        5. email: emp5@example.com, pass: 123
                         <br />
                         Admin:
                         <br />
